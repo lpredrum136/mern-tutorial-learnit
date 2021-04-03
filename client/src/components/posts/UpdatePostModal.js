@@ -42,7 +42,7 @@ const UpdatePostModal = () => {
 	// }
 
 	return (
-		<Modal show={showUpdatePostModal} animation={false} onHide={closeDialog}>
+		<Modal show={showUpdatePostModal} onHide={closeDialog}>
 			<Modal.Header closeButton>
 				<Modal.Title>Making progress?</Modal.Title>
 			</Modal.Header>
